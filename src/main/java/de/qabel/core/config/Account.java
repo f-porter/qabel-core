@@ -9,6 +9,7 @@ public class Account extends SyncSettingItem {
 	 * Provider of the account
 	 * Field name in serialized json: "provider"
 	 */
+	@RequiredInJson
 	private String provider;
 	/**
 	 * User of the account
@@ -19,6 +20,7 @@ public class Account extends SyncSettingItem {
 	 * Authentication of the account
 	 * Field name in serialized json: "auth"
 	 */
+	@RequiredInJson
 	private String auth;
 	
 	/**
